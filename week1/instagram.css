@@ -1,0 +1,146 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /*부모클라스인body에 설정해줘야함*/
+}
+
+.container{
+display: flex; 
+flex-direction: column;
+width: 300px;
+height: 500px;
+background-color: white;
+justify-content: center;
+align-items: center;
+}
+
+.login{
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    padding: 30px; /*로그인창과 버튼들 사이 여백*/
+    width: 100%;
+    height: 400px;
+    /* margin-top: 10px; */
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+}
+.login >p{
+    text-align: center;
+    font-size: 10px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+    height: 70px;   
+}
+.id{
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+form {
+    width: 100%;
+    padding-top: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+label{
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 0px;
+    position: relative;
+    text-align: left; /*왼쪽으로 정렬*/
+}
+button{
+    border: 1px solid white ;
+    border-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    background-color: #52aeff;
+}
+
+.id >p{
+    text-align: center;
+}
+
+input[type="text"], /*특정버튼에 css 주고 싶을때 적용*/
+input[type="password"] {
+  border-radius: 3px;
+  border: 1px solid rgb(174, 174, 174);
+  background-color: rgba(250, 250, 250, 0.995);
+  height: auto;  /*높이 초기화*/
+  line-height: normal;  /*초기화*/
+  padding: .5em .3em;  /* 여백 설정*/
+  margin-bottom: 8px; /*버튼사이의 여백조정*/
+} 
+
+.facebook{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+}
+
+.facebook >p{
+    font-size: medium;
+    margin-left: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.login >p{
+    font-size: small;
+}
+.register{
+    display: flex;
+    border: 1px;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin-top: 10px;
+    background-color: white;
+}
+span{
+    color:#0505d9;
+    font-weight: 800;
+}
+.facebook >p{
+    font-weight: bold;
+}
+.register>p{
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+.download{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+.download img{
+    margin-right: 0rem;
+    width: 100%;
+    height: 48px;
+}
