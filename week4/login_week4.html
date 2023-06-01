@@ -3,20 +3,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login form practice</title>
     <link rel="stylesheet" href="./login_week4.css">
 </head>
 
 <body>
     <div class="container">
-
-        <form id= "loginId">   
-            <input type="text" name="id" placeholder="Your name!" ><br />
-            <button>login</button>
+        <form id= "login-form" class="hidden">   
+            <input   
+            required 
+            maxlength="15" 
+            type="text" name="id" placeholder="Write Your name!" />
+            <!-- 굳이js에서 조건문으로 표현할 필요없이 브라우저에서 제한 가능-->
+            <!-- <button>Login</button> -->
+            <input type="submit" value="Login" />
         </form>
      
-
+        <h1 id="greeting" class="hidden"></h1>
     </div>
-
+<script src="./login_week4.js"></script>
 </body>
 </html>

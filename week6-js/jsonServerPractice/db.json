@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "content": "HTML",
+      "completed": "true"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Park Seoyoung",
+      "email": "lilianapsy@naver.com",
+      "password": "1201"
+    },
+    {
+      "id": 2,
+      "username": "Terre",
+      "email": "terre@naver.com",
+      "password": "0405"
+    }
+    
+  ]
+}
